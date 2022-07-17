@@ -380,7 +380,7 @@ function ife_save_vendor ( $post_id ) {
 		// }
 
 		// send one email
-		wp_mail($to, $subject, $message, $headers);
+		// wp_mail($to, $subject, $message, $headers);
 
 		// Redirect to thank-you page with the newly created post id embedded
 		if ($_POST['issubmitform'] === "yes"){
